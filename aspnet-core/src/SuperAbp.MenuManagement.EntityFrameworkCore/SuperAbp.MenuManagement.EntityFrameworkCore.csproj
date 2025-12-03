@@ -3,7 +3,7 @@
   <Import Project="..\..\common.props" />
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>SuperAbp.MenuManagement</RootNamespace>
 	  <Authors>SuperAbp</Authors>
 	  <Company>SuperAbp</Company>
@@ -13,13 +13,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="10.0.0" />
     <ProjectReference Include="..\SuperAbp.MenuManagement.Domain\SuperAbp.MenuManagement.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Update="ConfigureAwait.Fody" Version="3.3.2" />
-    <PackageReference Update="Fody" Version="6.9.1">
+    <PackageReference Update="Fody" Version="6.9.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
