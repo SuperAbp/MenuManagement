@@ -5,7 +5,7 @@ namespace SuperAbp.MenuManagement.Menus
 {
     public class Menu : FullAuditedEntity<Guid>
     {
-        public Menu()
+        protected Menu()
         {
         }
 
