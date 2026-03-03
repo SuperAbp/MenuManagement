@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.3.0" />
     <ProjectReference Include="..\SuperAbp.MenuManagement.EntityFrameworkCore.Tests\SuperAbp.MenuManagement.EntityFrameworkCore.Tests.csproj" />
   </ItemGroup>
 

@@ -9,11 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="10.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="10.0.3" />
     <ProjectReference Include="..\..\src\SuperAbp.MenuManagement.EntityFrameworkCore\SuperAbp.MenuManagement.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\SuperAbp.MenuManagement.TestBase\SuperAbp.MenuManagement.TestBase.csproj" />
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="10.0.0" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="10.1.0" />
   </ItemGroup>
 
   <ItemGroup>
